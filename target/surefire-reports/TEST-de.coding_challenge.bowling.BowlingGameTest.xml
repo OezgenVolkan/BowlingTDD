@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="de.coding_challenge.bowling.BowlingGameTest" time="0.037" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\U735357\Documents\Projects\coding_challenge\bowling_oop\bowling_game\target\test-classes;C:\Users\U735357\Documents\Projects\coding_challenge\bowling_oop\bowling_game\target\classes;C:\Users\U735357\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\U735357\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.boot.library.path" value="C:\Development\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\U735357\AppData\Local\Temp\surefire14959796341981015457\surefirebooter8948563737030942149.jar C:\Users\U735357\AppData\Local\Temp\surefire14959796341981015457 2022-03-17T10-23-15_657-jvmRun1 surefire9473948466445638661tmp surefire_012724997597371438064tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\U735357\Documents\Projects\coding_challenge\bowling_oop\bowling_game\target\test-classes;C:\Users\U735357\Documents\Projects\coding_challenge\bowling_oop\bowling_game\target\classes;C:\Users\U735357\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\U735357\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\U735357"/>
+    <property name="user.language" value="de"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.home" value="C:\Development\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\U735357\Documents\Projects\coding_challenge\bowling_oop\bowling_game"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\U735357\AppData\Local\Temp\surefire14959796341981015457\surefirebooter8948563737030942149.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="user.name" value="U735357"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\U735357\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\U735357\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.version" value="11"/>
+    <property name="user.dir" value="C:\Users\U735357\Documents\Projects\coding_challenge\bowling_oop\bowling_game"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Development\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Cloud Foundry;C:\Fly;C:\Users\U735357\AppData\Local\Programs\Python\Python37;C:\Users\U735357\AppData\Local\Programs\Python\Python37\Scripts;C:\cygwin64\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\apache-maven-3.6.2\bin;C:\ProgramData\chocolatey\bin;%JAVA_HOME%;C:\Program Files\nodejs;C:\Program Files (x86)\Phrase;C:\gradle-6.6.1\bin;C:\curl-7.72.0-win64-mingw\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\kubectl;C:\helm;C:\Program Files\MongoDB\Tools\100\bin;C:\terraform;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\U735357\AppData\Local\Microsoft\WindowsApps;C:\Users\U735357\AppData\Roaming\npm;C:\Users\U735357\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\U735357\AppData\Local\Programs\oh-my-posh\bin;C:\Users\U735357\AppData\Local\Programs\oh-my-posh\themes;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testIfAPlayerCanScoreADoubleAndThanOneAndOne" classname="de.coding_challenge.bowling.BowlingGameTest" time="0.002"/>
+  <testcase name="testIfAPlayerCanScoreATurkeyAndThanOneAndOne" classname="de.coding_challenge.bowling.BowlingGameTest" time="0"/>
+  <testcase name="testIfAPlayerCanScoreASpareAndThanOneAndOne" classname="de.coding_challenge.bowling.BowlingGameTest" time="0.001"/>
+  <testcase name="testIfAPlayerCanScoreAStrikeAndThanOneAndOne" classname="de.coding_challenge.bowling.BowlingGameTest" time="0"/>
+  <testcase name="testIfAPlayerCanRollOneThanSevenInFirstFrame" classname="de.coding_challenge.bowling.BowlingGameTest" time="0"/>
+  <testcase name="testIfAPlayerCanScoreAPerfectGame" classname="de.coding_challenge.bowling.BowlingGameTest" time="0"/>
+  <testcase name="testIfAPlayerCanHaveAnOpenFrame" classname="de.coding_challenge.bowling.BowlingGameTest" time="0"/>
+</testsuite>
